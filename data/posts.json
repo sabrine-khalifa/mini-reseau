@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "user": "John Doe",
+      "profileImage": "images/profile1.png",
+      "text": "John Doe Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto sunt itaque, in, enim non doloremque velit unde nihil vitae impedit dolorum, distinctio ab deleniti! #lifestyle",
+      "image": "images/post1.jpg",
+      "likes": 12,
+      "dislikes": 2,
+      "comments": [
+        {"user": "Jane", "text": "Super post!"},
+        {"user": "Mark", "text": "Je suis d'accord!"}
+      ]
+    },
+    {
+      "id": 2,
+      "user": "Jane Smith",
+      "profileImage": "images/profile2.png",
+      "text": " Jane Smith Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur itaque quasi autem pariatur ducimus eligendi, qui odio molestias at molestiae. #lifestyle",
+      "image": "images/post2.jpg",
+      "likes": 45,
+      "dislikes": 5,
+      "comments": []
+    }
+  ]
+  

@@ -1,0 +1,33 @@
+{
+  "conversations": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "profilePic": "images/profile1.png",
+      "messages": [
+        {
+          "content": "Hello, how are you?",
+          "timestamp": "2024-10-21 09:30",
+          "sender": "Alice"
+        },
+        {
+          "content": "I'm good, thanks!",
+          "timestamp": "2024-10-21 09:35",
+          "sender": "Me"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "profilePic": "images/profile2.png",
+      "messages": [
+        {
+          "content": "Hey, let's catch up later.",
+          "timestamp": "2024-10-21 10:00",
+          "sender": "Bob"
+        }
+      ]
+    }
+  ]
+}
