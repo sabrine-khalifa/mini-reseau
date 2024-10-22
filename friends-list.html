@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste d'Amis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="amis-container">
+        <h1>Liste d'Amis</h1>
+
+        <!-- Barre de recherche pour filtrer les amis -->
+        <input type="text" id="searchBar" placeholder="Rechercher un ami..." onkeyup="filterFriends()">
+
+        
+        <!-- Liste des amis -->
+        <ul id="friendList" class="friend-list">
+            <li class="friend" draggable="true">
+                <span class="name">Sabrine Khalifa</span>
+                <a href="messages.html" class="message-link">Message</a>
+            </li>
+            <li class="friend" draggable="true">
+                <span class="name">John Doe</span>
+                <a href="messages.html" class="message-link">Message</a>
+            </li>
+            <li class="friend" draggable="true">
+                <span class="name">Alice Dupont</span>
+                <a href="messages.html" class="message-link">Message</a>
+            </li>
+            <li class="friend" draggable="true">
+                <span class="name">Marc Bernard</span>
+                <a href="messages.html" class="message-link">Message</a>
+            </li>
+            <li class="friend" draggable="true">
+                <span class="name">Nadia Boussafi</span>
+                <a href="messages.html" class="message-link">Message</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/amis.js"></script>
+</body>
+</html>
+
